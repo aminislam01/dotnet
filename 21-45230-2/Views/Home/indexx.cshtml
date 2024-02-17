@@ -1,0 +1,38 @@
+﻿@{
+    ViewBag.Title = "Profile";
+    string name = "Amin Islam";
+    string id = "21-45230-2";
+    string email = "aminislam01868@gmail.com";
+    string githubProfile = "https://github.com/aminislam";
+}
+
+<h2>Profile</h2>
+
+<table>
+    <tr>
+        <td><strong>Name</strong></td>
+        <td>:</td>
+        <td>@name</td>
+    </tr>
+    <tr>
+        <td><strong>ID</strong></td>
+        <td>:</td>
+        <td>@id</td>
+    </tr>
+    <tr>
+        <td><strong>Email</strong></td>
+        <td>:</td>
+        <td><a href="mailto:@email">@email</a></td>
+    </tr>
+    <tr>
+        <td><strong>GitHub Profile</strong></td>
+        <td>:</td>
+        <td><a href="@githubProfile" target="_blank">@githubProfile</a></td>
+    </tr>
+</table>
+<br />
+<p>1.&nbsp;<a href="/Home/Education">Education</a></p>
+<p>2.&nbsp;<a href="/Home/Projects">Projects</a></p>
+<p>3.&nbsp;<a href="/Home/Personal">Personal</a></p>
+<p>4.&nbsp;<a href="/Home/Reference">Reference</a></p>
+
